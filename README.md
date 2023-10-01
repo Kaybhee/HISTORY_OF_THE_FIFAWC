@@ -24,7 +24,8 @@ I decided to analyse and visualize this data due to my interest in football, i a
 ### HOST NATIONS PERFORMANCE<br>
 > Being the host nation doesn't guarantee anything, infact the last time a host country won the WC was far back as the late 90's, the last team being the french team of 98.<br>There are only 6 teams who hosted the WC and also emerged victorious; the teams were Uruguay, Italy, England, Germany, Argentina and then France.<br><br>
 This result was obtained writing **"DAX"** expressions in POWERBI.<br><br><br>
-> ```**"HostCountryWinners =<br> VAR HostCountriesWithWins = SUMMARIZE(FILTER(world_cups, world_cups[Host Country] = world_cups[Winner])<br>RETURN<br>CONCATENATEX(HostCountriesWithWins,world_cups[Host Country], ",")"**```
+> ```**"HostCountryWinners =<br>"**``` ```**"VAR HostCountriesWithWins = SUMMARIZE(FILTER(world_cups,world_cups[Host Country] = world_cups[Winner])"**```<br>```**"RETURN"**```<br>
+```**"CONCATENATEX(HostCountriesWithWins,world_cups[Host Country], ",")"**```
 
 
 
