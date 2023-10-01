@@ -27,6 +27,8 @@ This result was obtained writing **"DAX"** expressions in POWERBI.<br><br>
 > ```HostCountryWinners =``` <br> ```VAR HostCountriesWithWins = SUMMARIZE(FILTER(world_cups,world_cups[Host Country] = world_cups[Winner])```<br>```RETURN```<br>
 ```CONCATENATEX(HostCountriesWithWins,world_cups[Host Country], ",")```
 
+### FIFA WORLD CUP 2022
+
 
 
 
