@@ -23,7 +23,7 @@ I decided to analyse and visualize this data due to my interest in football, i a
 >The data shows that several teams had hosted the world cup twice but never happened multiple times with Bazil, Germany, Mexico, France and Italy the only nations to have done it twice.<br>There is no doubt Brazil has been the most successful team in the WC followed by Germany surprisingly Germany also comes first in the runners-up categories with 4 silver medal, Argentina and Netherland closely followed with 3.<br> It is also important to understand almost all Gold medalist have also been runners-up except for teams like Spain, Uruguay and England.
 ### HOST NATIONS PERFORMANCE<br>
 > Being the host nation doesn't guarantee anything, infact the last time a host country won the WC was far back as the late 90's, the last team being the french team of 98.<br>There are only 6 teams who hosted the WC and also emerged victorious; the teams were Uruguay, Italy, England, Germany, Argentina and then France.<br><br>
-This result was obtained writing **"DAX"** expressions in POWERBI.<br><br><br>
+This result was obtained writing **"DAX"** expressions in POWERBI.<br><br>
 > ```HostCountryWinners =``` <br> ```VAR HostCountriesWithWins = SUMMARIZE(FILTER(world_cups,world_cups[Host Country] = world_cups[Winner])```<br>```RETURN```<br>
 ```CONCATENATEX(HostCountriesWithWins,world_cups[Host Country], ",")```
 
