@@ -25,7 +25,8 @@ I decided to analyse and visualize this data due to my interest in football, i a
 > Being the host nation doesn't guarantee anything, infact the last time a host country won the WC was far back as the late 90's, the last team being the french team of 98.<br>There are only 6 teams who hosted the WC and also emerged victorious; the teams were Uruguay, Italy, England, Germany, Argentina and then France.<br><br>
 This result was obtained writing **"DAX"** expressions in POWERBI.<br><br>
 > ```HostCountryWinners =``` <br> ```VAR HostCountriesWithWins = SUMMARIZE(FILTER(world_cups,world_cups[Host Country] = world_cups[Winner])```<br>```RETURN```<br>
-```CONCATENATEX(HostCountriesWithWins,world_cups[Host Country], ",")```
+```CONCATENATEX(HostCountriesWithWins,world_cups[Host Country], ",")```<br><br>![Capture1](https://github.com/Kaybhee/HISTORY_OF_THE_FIFAWC/assets/106836064/9b5c67c2-ae49-4a43-8540-736471293700)
+
 
 ### FIFA WORLD CUP 2022<br>
 
