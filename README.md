@@ -34,3 +34,4 @@ This result was obtained writing **"DAX"** expressions in POWERBI.<br><br>
 
 
 
+
